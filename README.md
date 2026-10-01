@@ -28,12 +28,18 @@ platform 35, an NDK and a JDK) in `~/android-sdk`; set `ANDROID_SDK` or `ANDROID
 another location.
 
 ```sh
-git clone --recursive <repo>
+git clone --recursive https://github.com/nuxdie/jewels-game.git
+cd jewels-game
 ./build.sh
 adb install -r Jewels.apk
 ```
 
-## Credits
+## License
 
-See [CREDITS.md](CREDITS.md). The music is CC BY-NC-ND 4.0, so this project must stay
-non-commercial.
+The source code and art are under the [MIT License](LICENSE). The bundled third-party files
+keep their own licences, listed in [CREDITS.md](CREDITS.md):
+
+- The music, `android/assets/music/BeyondNetwork.it`, is CC BY-NC-ND 4.0. Any APK that
+  includes it can only be shared non-commercially, and the module must not be modified.
+- The fonts are under the SIL Open Font License.
+- libopenmpt is under the BSD licence.

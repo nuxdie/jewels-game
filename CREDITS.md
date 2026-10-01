@@ -20,3 +20,8 @@ Jacquard 12, Jersey 10 and Tiny5 are licensed under the SIL Open Font License; s
 ## libopenmpt
 
 `android/jni/libopenmpt` is a git submodule of [OpenMPT](https://github.com/OpenMPT/openmpt) at the `libopenmpt-0.8.9` tag. It is BSD-licensed; see its `LICENSE`.
+
+## This project
+
+Everything not listed above (the Java and C source, the pixel art drawn in code, the build
+scripts and tools) is under the MIT License; see `LICENSE`.
