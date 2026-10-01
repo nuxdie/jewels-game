@@ -1,0 +1,15 @@
+# Build outputs (build.sh)
+/build/
+/Jewels.apk
+*.apk
+*.idsig
+
+# ndk-build outputs
+/android/obj/
+/android/libs/
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store

@@ -1,0 +1,203 @@
+# Sound effects, played on Beyond the Network's own instruments (the module file is not changed).
+# effect  start_ms  instrument  note  volume  pan  hold_ms
+# Instruments are named as in the module, with '_' for spaces, or given as #number (1-based).
+# Notes are tracker notes: C-5 is middle C. Everything sits in B major, like the music.
+
+click            0  #30                    E-5  0.41 +0.00    60
+
+select           0  #28                    C-5  0.40 +0.00    60
+select           0  IceBell.short          B-5  0.30 +0.00    70
+
+land             0  #37                    G-5  0.48 +0.00    40
+land             0  IceBell.short          F#7  0.19 +0.00    30
+
+bad              0  PowerBass              D-5  0.49 +0.00   170
+bad              0  #41                    A-4  0.39 +0.00   120
+bad             60  #39                    D-5  0.24 +0.00   100
+
+match            0  IceBell.short          B-5  0.80 -0.10   300
+match            0  IceBell.short          F#6  0.50 +0.10   300
+match            0  IceBell-SoftPluck      B-4  0.40 +0.00   300
+match            0  NoiseHit               C-5  0.30 +0.00    90
+
+match_big        0  IceBell.short          B-5  0.80 -0.10   350
+match_big        0  IceBell.short          F#6  0.50 +0.10   350
+match_big        0  IceBell-SoftPluck      B-4  0.40 +0.00   350
+match_big       40  IceBell.short          B-6  0.45 -0.20   300
+match_big       75  IceBell.short          D#7  0.35 +0.20   300
+match_big        0  BellOctaveTrill        F#6  0.30 +0.00   500
+match_big        0  NoiseHit               C-5  0.40 +0.00   140
+
+cascade2         0  IceBell.short          D#6  0.80 -0.10   300
+cascade2        35  IceBell.short          A#6  0.45 +0.15   280
+cascade2        70  IceBell.short          D#7  0.30 -0.15   260
+cascade2         0  IceBell-SoftPluck      D#5  0.35 +0.00   300
+cascade2         0  NoiseHit               C-5  0.31 +0.00   110
+
+cascade3         0  IceBell.short          F#6  0.80 -0.10   300
+cascade3        35  IceBell.short          C#7  0.45 +0.15   280
+cascade3        70  IceBell.short          F#7  0.30 -0.15   260
+cascade3         0  IceBell-SoftPluck      F#5  0.35 +0.00   300
+cascade3         0  NoiseHit               C-5  0.34 +0.00   125
+
+cascade4         0  IceBell.short          G#6  0.80 -0.10   300
+cascade4        35  IceBell.short          D#7  0.45 +0.15   280
+cascade4        70  IceBell.short          G#7  0.30 -0.15   260
+cascade4         0  IceBell-SoftPluck      G#5  0.35 +0.00   300
+cascade4         0  NoiseHit               C-5  0.37 +0.00   140
+
+cascade5         0  IceBell.short          B-6  0.80 -0.10   300
+cascade5        35  IceBell.short          F#7  0.45 +0.15   280
+cascade5        70  IceBell.short          B-7  0.30 -0.15   260
+cascade5         0  IceBell-SoftPluck      B-5  0.35 +0.00   300
+cascade5         0  NoiseHit               C-5  0.40 +0.00   155
+cascade5         0  BellOctaveTrill        B-6  0.20 +0.00   400
+
+cascade6         0  IceBell.short          C#7  0.80 -0.10   300
+cascade6        35  IceBell.short          G#7  0.45 +0.15   280
+cascade6        70  IceBell.short          C#8  0.30 -0.15   260
+cascade6         0  IceBell-SoftPluck      C#6  0.35 +0.00   300
+cascade6         0  NoiseHit               C-5  0.43 +0.00   170
+cascade6         0  BellOctaveTrill        C#7  0.24 +0.00   400
+
+cascade7         0  IceBell.short          D#7  0.80 -0.10   300
+cascade7        35  IceBell.short          A#7  0.45 +0.15   280
+cascade7        70  IceBell.short          D#8  0.30 -0.15   260
+cascade7         0  IceBell-SoftPluck      D#6  0.35 +0.00   300
+cascade7         0  NoiseHit               C-5  0.46 +0.00   185
+cascade7         0  BellOctaveTrill        D#7  0.28 +0.00   400
+
+start            0  IceBell.short          B-5  0.42 -0.30   250
+start           55  IceBell.short          D#6  0.46 -0.20   250
+start          110  IceBell.short          F#6  0.49 -0.10   250
+start          165  IceBell.short          B-6  0.53 +0.00   250
+start          220  IceBell.short          D#7  0.56 +0.10   250
+start          275  IceBell.short          F#7  0.59 +0.20   250
+start          330  IceBell.short          B-7  0.63 +0.30   250
+start            0  SynSweep.softfader     B-4  0.42 +0.00   600
+start          100  NoiseHiss              C-5  0.26 +0.00   500
+
+hyper_make       0  SynSweep               B-4  0.70 +0.00   500
+hyper_make     200  5thTrill               B-5  0.45 +0.00   700
+hyper_make     200  NoiseHiss              C-5  0.35 +0.00   900
+hyper_make     450  BellOctaveTrill        B-6  0.45 +0.00   700
+hyper_make     480  IceBell.short          B-6  0.50 -0.20   400
+hyper_make     510  IceBell.short          D#7  0.50 +0.00   400
+hyper_make     540  IceBell.short          F#7  0.50 +0.20   400
+
+hyper_blast      0  UnionBD                C-5  0.50 +0.00   300
+hyper_blast      0  KnockBass-Lo           B-4  0.45 +0.00   250
+hyper_blast      0  NoiseHit               C-5  0.35 +0.00   300
+hyper_blast      0  NoiseHihat.open        C-5  0.25 +0.00   400
+hyper_blast     20  IceBell-RDelayt        F#7  0.23 -0.40   300
+hyper_blast     65  IceBell-RDelayt        D#7  0.23 -0.20   300
+hyper_blast    110  IceBell-RDelayt        B-6  0.23 +0.00   300
+hyper_blast    155  IceBell-RDelayt        F#6  0.23 +0.20   300
+hyper_blast    200  IceBell-RDelayt        D#6  0.23 +0.40   300
+
+zap              0  ChaOsEnGiNe            D-4  0.35 -0.17    45
+zap             35  ChaOsEnGiNe            F#3  0.46 -0.30    26
+zap             73  ChaOsEnGiNe            C-5  0.40 -0.30    42
+zap             83  #35                    C-5  0.26 +0.32    30
+zap            121  ChaOsEnGiNe            C-5  0.34 +0.44    37
+zap            131  #35                    C-5  0.35 -0.51    30
+zap            175  ChaOsEnGiNe            G#3  0.32 -0.60    25
+zap            185  #35                    C-5  0.25 +0.68    30
+zap            215  ChaOsEnGiNe            D-5  0.37 -0.36    45
+zap            225  #35                    C-5  0.37 +0.27    30
+zap            262  ChaOsEnGiNe            D-5  0.31 -0.10    29
+zap            272  #35                    C-5  0.27 +0.44    30
+zap            315  ChaOsEnGiNe            D#4  0.42 +0.25    27
+zap            325  #35                    C-5  0.35 -0.03    30
+zap            360  ChaOsEnGiNe            B-4  0.40 +0.25    26
+zap            370  #35                    C-5  0.37 +0.63    30
+zap            406  ChaOsEnGiNe            C-4  0.30 +0.35    36
+zap            441  ChaOsEnGiNe            C-4  0.31 -0.38    31
+zap            451  #35                    C-5  0.26 +0.45    30
+zap            490  ChaOsEnGiNe            F#5  0.41 +0.47    33
+zap            528  ChaOsEnGiNe            A-4  0.46 +0.36    34
+zap            538  #35                    C-5  0.37 -0.57    30
+zap            573  ChaOsEnGiNe            A#4  0.42 +0.50    35
+zap            583  #35                    C-5  0.33 -0.57    30
+zap            629  ChaOsEnGiNe            G#5  0.37 +0.36    45
+zap            639  #35                    C-5  0.33 +0.70    30
+zap            669  ChaOsEnGiNe            A-4  0.31 +0.12    37
+zap            679  #35                    C-5  0.34 -0.22    30
+zap            712  ChaOsEnGiNe            E-4  0.43 -0.43    45
+zap            722  #35                    C-5  0.30 +0.47    30
+zap            751  ChaOsEnGiNe            C#5  0.50 +0.16    38
+zap            761  #35                    C-5  0.29 -0.49    30
+zap            799  ChaOsEnGiNe            A#5  0.33 +0.51    44
+zap            850  ChaOsEnGiNe            F#4  0.50 +0.23    35
+zap            894  ChaOsEnGiNe            G-4  0.38 -0.42    37
+zap            946  ChaOsEnGiNe            G#5  0.43 -0.00    35
+zap            956  #35                    C-5  0.30 +0.02    30
+zap            998  ChaOsEnGiNe            E-5  0.37 +0.34    36
+zap           1054  ChaOsEnGiNe            D-5  0.46 -0.16    33
+zap           1097  ChaOsEnGiNe            D#6  0.50 -0.19    30
+zap           1132  ChaOsEnGiNe            A#4  0.42 -0.30    33
+zap           1183  ChaOsEnGiNe            E-6  0.37 +0.17    38
+zap           1223  ChaOsEnGiNe            C-5  0.50 +0.55    41
+zap           1233  #35                    C-5  0.38 -0.42    30
+zap           1269  ChaOsEnGiNe            C#5  0.36 -0.51    38
+zap           1279  #35                    C-5  0.35 +0.11    30
+zap           1325  ChaOsEnGiNe            C#5  0.37 +0.06    45
+zap           1335  #35                    C-5  0.38 -0.43    30
+zap           1378  ChaOsEnGiNe            D-5  0.43 -0.38    30
+zap           1414  ChaOsEnGiNe            D#5  0.50 -0.40    29
+zap           1424  #35                    C-5  0.37 -0.02    30
+zap           1466  ChaOsEnGiNe            G#5  0.38 -0.18    44
+zap           1476  #35                    C-5  0.25 +0.31    30
+zap           1512  ChaOsEnGiNe            A-5  0.37 +0.54    38
+zap           1569  ChaOsEnGiNe            C#6  0.37 -0.56    44
+zap           1579  #35                    C-5  0.26 +0.02    30
+zap              0  NoiseHiss.sustain      C-5  0.34 +0.00  1600
+zap           1600  NoiseHit               C-5  0.51 +0.00   200
+zap           1600  IceBell.short          F#7  0.42 +0.00   300
+zap           1600  IceBell.short          B-6  0.42 +0.00   300
+
+flame            0  UnionBD                C-5  0.50 +0.00   300
+flame            0  KnockBass-Lo           G-4  0.45 +0.00   250
+flame            0  PowerBass              C-5  0.35 +0.00   300
+flame            0  NoiseHit               C-5  0.40 +0.00   500
+flame            0  NoiseHihat.open        C-5  0.30 +0.00   600
+flame           30  #44                    C-5  0.25 +0.00   100
+flame           10  #33                    C-5  0.20 +0.30    60
+flame           60  IceBell-RDelayt        B-6  0.15 +0.30   250
+flame          120  IceBell-RDelayt        F#6  0.15 +0.00   250
+flame          180  IceBell-RDelayt        D#6  0.15 -0.30   250
+
+shuffle_out      0  SynSweep.softpad       E-4  0.70 +0.00  1600
+shuffle_out      0  NoiseHiss.sustain      C-5  0.56 +0.00  1700
+shuffle_out      0  IceBell-RDelayt        B-7  0.56 +0.50   200
+shuffle_out    110  IceBell-RDelayt        A#7  0.56 -0.50   200
+shuffle_out    220  IceBell-RDelayt        F#7  0.56 +0.50   200
+shuffle_out    330  IceBell-RDelayt        D#7  0.56 -0.50   200
+shuffle_out    440  IceBell-RDelayt        B-6  0.56 +0.50   200
+shuffle_out    550  IceBell-RDelayt        A#6  0.56 -0.50   200
+shuffle_out    660  IceBell-RDelayt        F#6  0.56 +0.50   200
+shuffle_out    770  IceBell-RDelayt        D#6  0.56 -0.50   200
+shuffle_out    880  IceBell-RDelayt        B-5  0.56 +0.50   200
+shuffle_out    990  IceBell-RDelayt        A#5  0.56 -0.50   200
+shuffle_out   1100  IceBell-RDelayt        F#5  0.56 +0.50   200
+shuffle_out   1210  IceBell-RDelayt        D#5  0.56 -0.50   200
+shuffle_out   1320  IceBell-RDelayt        B-4  0.56 +0.50   200
+
+shuffle_in       0  IceBell.short          B-4  0.40 +0.40   200
+shuffle_in      60  IceBell.short          D#5  0.43 -0.40   200
+shuffle_in     120  IceBell.short          F#5  0.46 +0.40   200
+shuffle_in     180  IceBell.short          B-5  0.49 -0.40   200
+shuffle_in     240  IceBell.short          D#6  0.52 +0.40   200
+shuffle_in     300  IceBell.short          F#6  0.55 -0.40   200
+shuffle_in     360  IceBell.short          A#6  0.58 +0.40   200
+shuffle_in     420  IceBell.short          B-6  0.61 -0.40   200
+shuffle_in     480  BellOctaveTrill        B-6  0.40 +0.00   600
+shuffle_in     480  NoiseHit               C-5  0.35 +0.00   150
+shuffle_in     480  IceBell-SoftPluck      B-5  0.50 +0.00   400
+
+no_moves         0  IceBell-RDelayt        F#6  0.50 +0.00   250
+no_moves       140  IceBell-RDelayt        D-6  0.50 +0.00   250
+no_moves       280  IceBell-RDelayt        B-5  0.50 +0.00   250
+no_moves       420  IceBell-RDelayt        F#5  0.50 +0.00   250
+no_moves         0  SynSweep.softfader     B-3  0.45 +0.00   700
+no_moves       420  SoftTom                B-4  0.60 +0.00   300

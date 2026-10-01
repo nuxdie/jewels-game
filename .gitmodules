@@ -1,3 +1,4 @@
 [submodule "android/jni/libopenmpt"]
 	path = android/jni/libopenmpt
 	url = https://github.com/OpenMPT/openmpt
+	shallow = true
